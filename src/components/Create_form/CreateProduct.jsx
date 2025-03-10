@@ -56,7 +56,7 @@ const CreateProduct = () => {
         throw new Error("Invalid product ID received.");
       }
 
-      setProductId(newProductId); // Store productId in state
+      setProductId(newProductId); 
       await generateQRCode(newProductId);
       setSuccess(true);
       resetForm();

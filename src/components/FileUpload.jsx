@@ -7,10 +7,10 @@ import { CloudUpload, Pause, Cancel } from "@mui/icons-material";
 import { styled } from "@mui/system";
 
 const UploadContainer = styled(Box)(({ theme }) => ({
-  width: "100%", // Responsive width
-  maxWidth: 500, // Prevents excessive width on large screens
+  width: "100%", 
+  maxWidth: 500,
   padding: 20,
-  margin: "20px auto", // Centers it
+  margin: "20px auto",
   border: `2px dashed ${theme.palette.divider}`,
   borderRadius: 10,
   textAlign: "center",
@@ -21,7 +21,7 @@ const UploadContainer = styled(Box)(({ theme }) => ({
   alignItems: "center",
   justifyContent: "center",
   "@media (max-width: 600px)": {
-    maxWidth: "90%", // Adjust for smaller screens
+    maxWidth: "90%", 
   },
 }));
 

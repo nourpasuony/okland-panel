@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Button, Typography } from "@mui/material";
 
-import monster from "/src/assets/images/godzilla.gif";
+import monster from "/images/godzilla.gif";
 
 function ErrorPage() {
   return (
@@ -9,7 +9,7 @@ function ErrorPage() {
       container
       className="fullSize"
       direction="column"
-      justifyContent="center" // Corrected from 'justify'
+      justifyContent="center"
       alignItems="center"
       id="ERR404"
     >

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import TextField from "@mui/material/TextField";
 import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
+// import API from "../../api";
 import axios from "axios";
 
 const Login = () => {
@@ -26,10 +27,9 @@ const Login = () => {
       setError("Username and password are required!");
       return;
     }
-
     try {
-      const { data, status } = await axios.post(`http://92.112.181.199:5000/api/v1/login/`, credentials, {
-        withCredentials: true,
+      const { data, status } = await axios.post(`https://okland.me/api/v1/login/`, credentials , {
+        withCredentials: false,
       });
 
       if (status === 200) {
@@ -45,7 +45,7 @@ const Login = () => {
     <div className="layout">
       <div className="left-half">
         <div className="illustration">
-          <img src="/src/assets/images/Okland Lion Main Logo@8x.png" alt="Illustration" />
+          <img src="images/Okland Lion Main Logo@8x.png" alt="Illustration" />
         </div>
       </div>
       <div className="right-half">

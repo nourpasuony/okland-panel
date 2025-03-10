@@ -40,7 +40,7 @@ const AddWarranty = memo(({productId}) => (
       <Grid container spacing={3} alignItems="center">
         {/* Left Side */}
         <Grid item xs={12} md={4} sx={styles.imageContainer}>
-          <Box component="img" src="/src/assets/images/background.jpg" alt="Meeting" sx={styles.image} />
+          <Box component="img" src="/images/background.jpg" alt="Meeting" sx={styles.image} />
         </Grid>
 
         {/* Right Side */}

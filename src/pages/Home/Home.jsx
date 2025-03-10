@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Box } from "@mui/material";
 import { motion } from "framer-motion";
 
-const imageSrc = "./src/assets/images/Okland Lion Main Logo@8x.png";
+const imageSrc = "/images/Okland Lion Main Logo@8x.png";
 
 const splitVariants = {
   drop: (i) => ({

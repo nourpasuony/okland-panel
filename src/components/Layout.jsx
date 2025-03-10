@@ -26,7 +26,7 @@ export default function DashboardLayout({ window }) {
         homeUrl: "http://localhost:5173/",
         logo: (
           <img
-            src="/src/assets/images/Okland Lion Main Logo@8x.png"
+            src="/images/Okland Lion Main Logo@8x.png"
             alt="logo"
           />
         ),

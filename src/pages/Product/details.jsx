@@ -43,7 +43,7 @@ const ProductDetails = ({ product }) => {
         <Grid item xs={12} md={6} display="flex" justifyContent="center">
           <Box
             component="img"
-            src={product?.productId?.image || "/src/assets/images/background.jpg"}
+            src={product?.productId?.image || "/images/background.jpg"}
             alt={product?.productId?.productName || "Product"}
             sx={{
               width: { xs: 180, sm: 220, md: 250 },
@@ -81,7 +81,6 @@ const ProductDetails = ({ product }) => {
               textOverflow: "ellipsis",
             }}
           >
-            {/* dawdawdawdawdlk;mklqkwmdlkqwmdlkmqlkdmalkdmlkawmdlamd */}
             {product?.productId?.productDescription || "No description available."}
           </Typography>
         </Grid>
